@@ -1,0 +1,10 @@
+.Form-content {
+    height: 70%;
+    width: 100%;
+    overflow-y:auto ;
+  
+}
+
+.Form-content::-webkit-scrollbar {
+    display: none; /* ocultar barra de desplazamiento en WebKit */
+}
