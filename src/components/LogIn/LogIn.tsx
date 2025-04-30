@@ -19,8 +19,8 @@ export default function LogIn(params:any) {
         <div className="margin"></div>
         <Form formName= "The Perfect Bid" size="small">
           <FormCard text = "Ingresa tus datos y accede a tu cuenta" cardTitle = "Ingreso"/>
-          <Field name = "Nombre de usuario" placeHolder ="Introduzca el nombre de usuario" />
           <Field name = "Correo electronico" placeHolder ="Introduzca el correo de usuario" />
+          <Field name = "Contraseña" placeHolder ="Introduzca su contraseña" />
           <Link className="link-red" to={''}><div className='form-link-forget'>Olvidó su contraseña?</div></Link>
           <FormButton text = "Ingresar" handle = {handleClick} />
           <Link className="link-red" to={'/Register'}><div className='form-link-register'>No tienes una cuenta? Regístrate ya!</div></Link>

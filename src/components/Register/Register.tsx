@@ -18,7 +18,8 @@ export default function Register(params: any){
         <Form formName= "Regístrate" size="large">
           <div className="Form-content">
             <FormCard text = "Crea tu cuenta" cardTitle = "Join The Perfect Bid"/>
-            <Field name = "Nombre completo" placeHolder ="your full name" />
+            <Field name = "Nombre" placeHolder ="your name" />
+            <Field name = "Apellido" placeHolder ="your last name" />
             <Field name = "Correo electronico" placeHolder ="your email" />
             <Field name = "Direccion" placeHolder =" your direction" />
             <Field name = "Telefono" placeHolder ="phone number" />
